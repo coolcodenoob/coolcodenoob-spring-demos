@@ -10,8 +10,6 @@ import java.time.LocalDateTime;
 
 @Slf4j
 @RestController
-//@RequestMapping("/test")
-
 public class LogController {
     @GetMapping("/test")
     public ResponseEntity<String> testLog() {
