@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+logging:
+  path: C:/data/logs
+  level:
+    root: debug
+
+spring:
+  application:
+    name: springboot-logback-demo
+
+debug: false
